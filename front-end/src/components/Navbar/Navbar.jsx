@@ -15,13 +15,13 @@ export default function Navbar() {
           </div>
           <div className="hidden md:flex space-x-4">
             <Link to="/" className="hover:text-blue-300">
-              Beranda
+              Home
             </Link>
             <Link to="/tentang" className="hover:text-blue-300">
-              Tentang
+              About me
             </Link>
             <Link to="/kontak" className="hover:text-blue-300">
-              Kontak
+              Contact me
             </Link>
           </div>
           <div className="md:hidden">
@@ -38,13 +38,13 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden">
           <Link to="/" className="block py-2 px-4 hover:bg-blue-500">
-            Beranda
+            Home
           </Link>
           <Link to="/tentang" className="block py-2 px-4 hover:bg-blue-500">
-            Tentang
+            About me
           </Link>
           <Link to="/kontak" className="block py-2 px-4 hover:bg-blue-500">
-            Kontak
+            Contact me
           </Link>
         </div>
       )}
