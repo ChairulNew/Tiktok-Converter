@@ -6,6 +6,7 @@ const Header = () => {
       <h1 className="text-center text-2xl">
         Hello, welcome to tiktok converter
       </h1>
+      <p className="text-center">Convert your video tiktok, no wm</p>
     </div>
   );
 };
